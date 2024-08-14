@@ -88,16 +88,16 @@ import largeWrench from "../icons/large/wrench.json"
 
 export const iconsMap = {
     small: {
-        "numbers0": smallNumbers0,
-        "numbers1": smallNumbers1,
-        "numbers2": smallNumbers2,
-        "numbers3": smallNumbers3,
-        "numbers4": smallNumbers4,
-        "numbers5": smallNumbers5,
-        "numbers6": smallNumbers6,
-        "numbers7": smallNumbers7,
-        "numbers8": smallNumbers8,
-        "numbers9": smallNumbers9,
+        "number0": smallNumbers0,
+        "number1": smallNumbers1,
+        "number2": smallNumbers2,
+        "number3": smallNumbers3,
+        "number4": smallNumbers4,
+        "number5": smallNumbers5,
+        "number6": smallNumbers6,
+        "number7": smallNumbers7,
+        "number8": smallNumbers8,
+        "number9": smallNumbers9,
         "circle": smallCircle,
         "cross": smallCross,
         "empty": smallEmpty,
@@ -199,10 +199,28 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : svgIcon | undefined =
     }
 
     if (typeof source === "number") {
-        if (!size) {
-            size = "medium"
-        }
+        const numbers = source.toString().split("").map(int => {
+            if (!size) {
+                size = "medium"
+            }
+            return iconsMap[size][`number${int}`]
+        }) 
         
+        const result = [] as jaoIconJSON
+        
+        numbers.forEach((number, numberIndex) => {
+            numbers[numberIndex].forEach((row, rowIndex) => {
+                if (!result[rowIndex]) {
+                    result.push([0])
+                }
+                result[rowIndex] = result[rowIndex].concat(row, [0])
+            })
+        })
+
+        return jsonToSvg(result, {
+            pixelSize: 8,
+            pixelPadding: 2
+        })
     }
 }
 
