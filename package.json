@@ -1,6 +1,6 @@
 {
   "name": "jao-icons",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "Icon set - Jeffrey Arts Online ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,6 +17,7 @@
   ],
   "author": "Jeffrey Arts",
   "license": "ISC",
+  "repository": "git@github.com:JeffreyArts/jao-icons.git",
   "devDependencies": {
     "@types/node": "^22.3.0",
     "eslint": "^9.9.0",
