@@ -4,7 +4,6 @@ declare module "jao-icons" {
     // Redefine the types directly
     export type jaoIconJSON = Array<Array<0 | 1>>;
     export type jaoIconSize = "small" | "medium" | "large";
-    export type svgIcon = HTMLElement & SVGElement;
 
     export type jaoIconSource = number |
         "medium/checkbox-check" |
@@ -30,5 +29,5 @@ declare module "jao-icons" {
         "large/speech-bubble" |
         "large/wrench";
 
-    export function jsonToSvg(icon: jaoIconJSON, options: { pixelSize: number; pixelPadding: number }): svgIcon;
+    export function jsonToSvg(icon: jaoIconJSON, options: { pixelSize: number; pixelPadding: number }): SVGElement;
 }

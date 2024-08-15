@@ -1,4 +1,4 @@
-import { jaoIconJSON, jaoIconSize, jaoIconSource, svgIcon } from "jao-icons"
+import { jaoIconJSON, jaoIconSize, jaoIconSource } from "jao-icons"
 import jsonToSvg from "./json-to-svg"
 
 // Small
@@ -178,7 +178,7 @@ export const iconsMap = {
 }
 
 
-const Icon = (source: jaoIconSource, size?: jaoIconSize) : svgIcon | undefined => {
+const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefined => {
     if (typeof source === "string") {
         const size = source.split("/")[0] as jaoIconSize
         const name = source.split("/")[1] as string
