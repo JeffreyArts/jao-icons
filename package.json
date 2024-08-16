@@ -1,8 +1,9 @@
 {
   "name": "jao-icons",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Icon set - Jeffrey Arts Online ",
   "main": "dist/index.js",
+  "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepack": "tsc",
