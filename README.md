@@ -215,12 +215,17 @@ console.log(iconMap.small.cross)
             <strong>Fullscreen</strong>
         </td>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/graph.svg" alt="graph" style="width: 128px;">
+            <br>
+            <strong>Graph</strong>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/heart-outline.svg" alt="heart outline" style="width: 128px;">
             <br>
             <strong>Heart outline</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/heart.svg" alt="heart" style="width: 128px;">
             <br>
@@ -241,13 +246,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Off</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/on.svg" alt="on" style="width: 128px;">
             <br>
             <strong>On</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/play.svg" alt="play" style="width: 128px;">
             <br>
@@ -267,6 +272,13 @@ console.log(iconMap.small.cross)
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/smiley.svg" alt="smiley" style="width: 128px;">
             <br>
             <strong>Smiley</strong>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/user.svg" alt="user" style="width: 128px;">
+            <br>
+            <strong>User</strong>
         </td>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/terminal.svg" alt="terminal" style="width: 128px;">
@@ -309,6 +321,11 @@ console.log(iconMap.small.cross)
     <tr>
     </tr>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/graph.svg" alt="graph" style="width: 128px;">
+            <br>
+            <strong>Graph</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/heart-outline.svg" alt="heart" style="width: 128px;">
             <br>
             <strong>Heart outline</strong>
@@ -323,6 +340,8 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Play</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/square.svg" alt="square" style="width: 128px;">
             <br>
