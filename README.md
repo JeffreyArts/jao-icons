@@ -205,6 +205,11 @@ console.log(iconMap.small.cross)
             <strong>Expand</strong>
         </td>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/external-link.svg" alt="external-link" style="width: 128px;">
+            <br>
+            <strong>External link</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/eye.svg" alt="eye" style="width: 128px;">
             <br>
             <strong>Eye</strong>
@@ -214,13 +219,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Fullscreen</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/graph.svg" alt="graph" style="width: 128px;">
             <br>
             <strong>Graph</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/heart-outline.svg" alt="heart outline" style="width: 128px;">
             <br>
@@ -241,13 +246,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Move</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/off.svg" alt="off" style="width: 128px;">
             <br>
             <strong>Off</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/on.svg" alt="on" style="width: 128px;">
             <br>
@@ -268,13 +273,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Question</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/smiley.svg" alt="smiley" style="width: 128px;">
             <br>
             <strong>Smiley</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/user.svg" alt="user" style="width: 128px;">
             <br>

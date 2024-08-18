@@ -34,6 +34,7 @@ import mediumCross from "../icons/medium/cross.json"
 import mediumEmpty from "../icons/medium/empty.json"
 import mediumEuro from "../icons/medium/euro.json"
 import mediumExpand from "../icons/medium/expand.json"
+import mediumExternalLink from "../icons/medium/external-link.json"
 import mediumExpandWithBorder from "../icons/medium/expand-w-border.json"
 import mediumEye from "../icons/medium/eye.json"
 import mediumFullscreen from "../icons/medium/fullscreen.json"
@@ -126,6 +127,7 @@ export const iconsMap = {
         "euro": mediumEuro,
         "expand-with-border": mediumExpandWithBorder,
         "expand": mediumExpand,
+        "external-link": mediumExternalLink,
         "eye": mediumEye,
         "fullscreen": mediumFullscreen,
         "graph": mediumGraph,
