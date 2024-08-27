@@ -10,16 +10,47 @@ import smallFullscreen from "../icons/small/fullscreen.json"
 import smallGraph from "../icons/small/graph.json"
 import smallHeart from "../icons/small/heart.json"
 import smallHeartOutline from "../icons/small/heart-outline.json"
-import smallNumbers0 from "../icons/small/numbers/0.json"
-import smallNumbers1 from "../icons/small/numbers/1.json"
-import smallNumbers2 from "../icons/small/numbers/2.json"
-import smallNumbers3 from "../icons/small/numbers/3.json"
-import smallNumbers4 from "../icons/small/numbers/4.json"
-import smallNumbers5 from "../icons/small/numbers/5.json"
-import smallNumbers6 from "../icons/small/numbers/6.json"
-import smallNumbers7 from "../icons/small/numbers/7.json"
-import smallNumbers8 from "../icons/small/numbers/8.json"
-import smallNumbers9 from "../icons/small/numbers/9.json"
+import smallNumbers0 from "../icons/small/characters/0.json"
+import smallNumbers1 from "../icons/small/characters/1.json"
+import smallNumbers2 from "../icons/small/characters/2.json"
+import smallNumbers3 from "../icons/small/characters/3.json"
+import smallNumbers4 from "../icons/small/characters/4.json"
+import smallNumbers5 from "../icons/small/characters/5.json"
+import smallNumbers6 from "../icons/small/characters/6.json"
+import smallNumbers7 from "../icons/small/characters/7.json"
+import smallNumbers8 from "../icons/small/characters/8.json"
+import smallNumbers9 from "../icons/small/characters/9.json"
+import smallCharComma from "../icons/small/characters/comma.json"
+import smallCharDash from "../icons/small/characters/dash.json"
+import smallCharDot from "../icons/small/characters/dot.json"
+import smallCharExclamation from "../icons/small/characters/exclamation.json"
+import smallCharSpace from "../icons/small/characters/space.json"
+import smallCharA from "../icons/small/characters/a.json"
+import smallCharB from "../icons/small/characters/b.json"
+import smallCharC from "../icons/small/characters/c.json"
+import smallCharD from "../icons/small/characters/d.json"
+import smallChare from "../icons/small/characters/e.json"
+import smallCharF from "../icons/small/characters/f.json"
+import smallCharG from "../icons/small/characters/g.json"
+import smallCharH from "../icons/small/characters/h.json"
+import smallCharI from "../icons/small/characters/i.json"
+import smallCharJ from "../icons/small/characters/j.json"
+import smallCharK from "../icons/small/characters/k.json"
+import smallCharL from "../icons/small/characters/l.json"
+import smallCharM from "../icons/small/characters/m.json"
+import smallCharN from "../icons/small/characters/n.json"
+import smallCharO from "../icons/small/characters/o.json"
+import smallCharP from "../icons/small/characters/p.json"
+import smallCharQ from "../icons/small/characters/q.json"
+import smallCharR from "../icons/small/characters/r.json"
+import smallCharS from "../icons/small/characters/s.json"
+import smallCharT from "../icons/small/characters/t.json"
+import smallCharU from "../icons/small/characters/u.json"
+import smallCharV from "../icons/small/characters/v.json"
+import smallCharW from "../icons/small/characters/w.json"
+import smallCharX from "../icons/small/characters/x.json"
+import smallCharY from "../icons/small/characters/y.json"
+import smallCharZ from "../icons/small/characters/z.json"
 import smallPlay from "../icons/small/play.json"
 import smallSquare from "../icons/small/square.json"
 
@@ -43,16 +74,18 @@ import mediumHeart from "../icons/medium/heart.json"
 import mediumHeartOutline from "../icons/medium/heart-outline.json"
 import mediumLogo from "../icons/medium/logo.json"
 import mediumMove from "../icons/medium/move.json"
-import mediumNumber0 from "../icons/medium/numbers/0.json"
-import mediumNumber1 from "../icons/medium/numbers/1.json"
-import mediumNumber2 from "../icons/medium/numbers/2.json"
-import mediumNumber3 from "../icons/medium/numbers/3.json"
-import mediumNumber4 from "../icons/medium/numbers/4.json"
-import mediumNumber5 from "../icons/medium/numbers/5.json"
-import mediumNumber6 from "../icons/medium/numbers/6.json"
-import mediumNumber7 from "../icons/medium/numbers/7.json"
-import mediumNumber8 from "../icons/medium/numbers/8.json"
-import mediumNumber9 from "../icons/medium/numbers/9.json"
+import mediumNumber0 from "../icons/medium/characters/0.json"
+import mediumNumber1 from "../icons/medium/characters/1.json"
+import mediumNumber2 from "../icons/medium/characters/2.json"
+import mediumNumber3 from "../icons/medium/characters/3.json"
+import mediumNumber4 from "../icons/medium/characters/4.json"
+import mediumNumber5 from "../icons/medium/characters/5.json"
+import mediumNumber6 from "../icons/medium/characters/6.json"
+import mediumNumber7 from "../icons/medium/characters/7.json"
+import mediumNumber8 from "../icons/medium/characters/8.json"
+import mediumNumber9 from "../icons/medium/characters/9.json"
+import mediumCharSpace from "../icons/medium/characters/space.json"
+import mediumCharDash from "../icons/medium/characters/-.json"
 import mediumOff from "../icons/medium/off.json"
 import mediumOn from "../icons/medium/on.json"
 import mediumPlay from "../icons/medium/play.json"
@@ -76,16 +109,16 @@ import largeImage from "../icons/large/image.json"
 import largeIsoCube from "../icons/large/iso-cube.json"
 import largeLeave from "../icons/large/leave.json"
 import largeMove from "../icons/large/move.json"
-import largeNumber0 from "../icons/large/numbers/0.json"
-import largeNumber1 from "../icons/large/numbers/1.json"
-import largeNumber2 from "../icons/large/numbers/2.json"
-import largeNumber3 from "../icons/large/numbers/3.json"
-import largeNumber4 from "../icons/large/numbers/4.json"
-import largeNumber5 from "../icons/large/numbers/5.json"
-import largeNumber6 from "../icons/large/numbers/6.json"
-import largeNumber7 from "../icons/large/numbers/7.json"
-import largeNumber8 from "../icons/large/numbers/8.json"
-import largeNumber9 from "../icons/large/numbers/9.json"
+import largeNumber0 from "../icons/large/characters/0.json"
+import largeNumber1 from "../icons/large/characters/1.json"
+import largeNumber2 from "../icons/large/characters/2.json"
+import largeNumber3 from "../icons/large/characters/3.json"
+import largeNumber4 from "../icons/large/characters/4.json"
+import largeNumber5 from "../icons/large/characters/5.json"
+import largeNumber6 from "../icons/large/characters/6.json"
+import largeNumber7 from "../icons/large/characters/7.json"
+import largeNumber8 from "../icons/large/characters/8.json"
+import largeNumber9 from "../icons/large/characters/9.json"
 import largeQuestion from "../icons/large/question.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
 import largeThoughts from "../icons/large/thoughts.json"
@@ -102,16 +135,47 @@ export const iconsMap = {
         "graph": smallGraph,
         "heart-outline": smallHeartOutline,
         "heart": smallHeart,
-        "number0": smallNumbers0,
-        "number1": smallNumbers1,
-        "number2": smallNumbers2,
-        "number3": smallNumbers3,
-        "number4": smallNumbers4,
-        "number5": smallNumbers5,
-        "number6": smallNumbers6,
-        "number7": smallNumbers7,
-        "number8": smallNumbers8,
-        "number9": smallNumbers9,
+        "char0": smallNumbers0,
+        "char1": smallNumbers1,
+        "char2": smallNumbers2,
+        "char3": smallNumbers3,
+        "char4": smallNumbers4,
+        "char5": smallNumbers5,
+        "char6": smallNumbers6,
+        "char7": smallNumbers7,
+        "char8": smallNumbers8,
+        "char9": smallNumbers9,
+        "char_comma": smallCharComma,
+        "char_dash": smallCharDash,
+        "char_dot": smallCharDot,
+        "char_space": smallCharSpace,
+        "char_exclamation": smallCharExclamation,
+        "chara": smallCharA,
+        "charb": smallCharB,
+        "charc": smallCharC,
+        "chard": smallCharD,
+        "chare": smallChare,
+        "charf": smallCharF,
+        "charg": smallCharG,
+        "charh": smallCharH,
+        "chari": smallCharI,
+        "charj": smallCharJ,
+        "chark": smallCharK,
+        "charl": smallCharL,
+        "charm": smallCharM,
+        "charn": smallCharN,
+        "charo": smallCharO,
+        "charp": smallCharP,
+        "charq": smallCharQ,
+        "charr": smallCharR,
+        "chars": smallCharS,
+        "chart": smallCharT,
+        "charu": smallCharU,
+        "charv": smallCharV,
+        "charw": smallCharW,
+        "charx": smallCharX,
+        "chary": smallCharY,
+        "charz": smallCharZ,
         "play": smallPlay,
         "square": smallSquare,
     },
@@ -135,16 +199,18 @@ export const iconsMap = {
         "heart": mediumHeart,
         "logo": mediumLogo,
         "move": mediumMove,
-        "number0": mediumNumber0,
-        "number1": mediumNumber1,
-        "number2": mediumNumber2,
-        "number3": mediumNumber3,
-        "number4": mediumNumber4,
-        "number5": mediumNumber5,
-        "number6": mediumNumber6,
-        "number7": mediumNumber7,
-        "number8": mediumNumber8,
-        "number9": mediumNumber9,
+        "char0": mediumNumber0,
+        "char1": mediumNumber1,
+        "char2": mediumNumber2,
+        "char3": mediumNumber3,
+        "char4": mediumNumber4,
+        "char5": mediumNumber5,
+        "char6": mediumNumber6,
+        "char7": mediumNumber7,
+        "char8": mediumNumber8,
+        "char9": mediumNumber9,
+        "char_space": mediumCharSpace,
+        "char_dash": mediumCharDash,
         "off": mediumOff,
         "on": mediumOn,
         "play": mediumPlay,
@@ -167,16 +233,16 @@ export const iconsMap = {
         "iso-cube": largeIsoCube,
         "leave": largeLeave,
         "move": largeMove,
-        "number0": largeNumber0,
-        "number1": largeNumber1,
-        "number2": largeNumber2,
-        "number3": largeNumber3,
-        "number4": largeNumber4,
-        "number5": largeNumber5,
-        "number6": largeNumber6,
-        "number7": largeNumber7,
-        "number8": largeNumber8,
-        "number9": largeNumber9,
+        "char0": largeNumber0,
+        "char1": largeNumber1,
+        "char2": largeNumber2,
+        "char3": largeNumber3,
+        "char4": largeNumber4,
+        "char5": largeNumber5,
+        "char6": largeNumber6,
+        "char7": largeNumber7,
+        "char8": largeNumber8,
+        "char9": largeNumber9,
         "question": largeQuestion,
         "speech-bubble": largeSpeechBubble,
         "thoughts": largeThoughts,
@@ -206,34 +272,40 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
                 pixelPadding: 2
             })
         }
-
-        throw new Error(`Icon ${source} does not exist`)
     }
+    const chars = source.toString().split("").map(c => {
+        if (!size) {
+            size = "medium"
+        }
+        let char = c.toLowerCase()
+        if (c == ",") { char = "_comma" }
+        if (c == "-") { char = "_dash" }
+        if (c == ".") { char = "_dot" }
+        if (c == "!") { char = "_exclamation" }
+        if (c == " ") { char = "_space" }
+        
+        return iconsMap[size][`char${char}`]
+    }) 
 
-    if (typeof source === "number") {
-        const numbers = source.toString().split("").map(int => {
-            if (!size) {
-                size = "medium"
+    const result = [] as jaoIconJSON
+        
+    chars.forEach((char, charIndex) => {
+        if (!chars[charIndex]) {
+            return
+        }
+        chars[charIndex].forEach((row, rowIndex) => {
+            if (!result[rowIndex]) {
+                result.push([0])
             }
-            return iconsMap[size][`number${int}`]
-        }) 
-        
-        const result = [] as jaoIconJSON
-        
-        numbers.forEach((number, numberIndex) => {
-            numbers[numberIndex].forEach((row, rowIndex) => {
-                if (!result[rowIndex]) {
-                    result.push([0])
-                }
-                result[rowIndex] = result[rowIndex].concat(row, [0])
-            })
+            result[rowIndex] = result[rowIndex].concat(row, [0])
         })
+    })
 
-        return jsonToSvg(result, {
-            pixelSize: 8,
-            pixelPadding: 2
-        })
-    }
+    return jsonToSvg(result, {
+        pixelSize: 8,
+        pixelPadding: 2
+    })
+    
 }
 
 
