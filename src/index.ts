@@ -89,6 +89,7 @@ import mediumCharDash from "../icons/medium/characters/dash.json"
 import mediumCharDot from "../icons/medium/characters/dot.json"
 import mediumCharExclamation from "../icons/medium/characters/exclamation.json"
 import mediumCharSpace from "../icons/medium/characters/space.json"
+import mediumCharEuro from "../icons/medium/characters/euro.json"
 import mediumCharA from "../icons/medium/characters/a.json"
 import mediumCharB from "../icons/medium/characters/b.json"
 import mediumCharC from "../icons/medium/characters/c.json"
@@ -148,6 +149,37 @@ import largeNumber6 from "../icons/large/characters/6.json"
 import largeNumber7 from "../icons/large/characters/7.json"
 import largeNumber8 from "../icons/large/characters/8.json"
 import largeNumber9 from "../icons/large/characters/9.json"
+import largeCharComma from "../icons/large/characters/comma.json"
+import largeCharDash from "../icons/large/characters/dash.json"
+import largeCharDot from "../icons/large/characters/dot.json"
+import largeCharExclamation from "../icons/large/characters/exclamation.json"
+import largeCharSpace from "../icons/large/characters/space.json"
+import largeCharA from "../icons/large/characters/a.json"
+import largeCharB from "../icons/large/characters/b.json"
+import largeCharC from "../icons/large/characters/c.json"
+import largeCharD from "../icons/large/characters/d.json"
+import largeChare from "../icons/large/characters/e.json"
+import largeCharF from "../icons/large/characters/f.json"
+import largeCharG from "../icons/large/characters/g.json"
+import largeCharH from "../icons/large/characters/h.json"
+import largeCharI from "../icons/large/characters/i.json"
+import largeCharJ from "../icons/large/characters/j.json"
+import largeCharK from "../icons/large/characters/k.json"
+import largeCharL from "../icons/large/characters/l.json"
+import largeCharM from "../icons/large/characters/m.json"
+import largeCharN from "../icons/large/characters/n.json"
+import largeCharO from "../icons/large/characters/o.json"
+import largeCharP from "../icons/large/characters/p.json"
+import largeCharQ from "../icons/large/characters/q.json"
+import largeCharR from "../icons/large/characters/r.json"
+import largeCharS from "../icons/large/characters/s.json"
+import largeCharT from "../icons/large/characters/t.json"
+import largeCharU from "../icons/large/characters/u.json"
+import largeCharV from "../icons/large/characters/v.json"
+import largeCharW from "../icons/large/characters/w.json"
+import largeCharX from "../icons/large/characters/x.json"
+import largeCharY from "../icons/large/characters/y.json"
+import largeCharZ from "../icons/large/characters/z.json"
 import largeQuestion from "../icons/large/question.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
 import largeThoughts from "../icons/large/thoughts.json"
@@ -241,6 +273,7 @@ export const iconsMap = {
         "char_comma": mediumCharComma,
         "char_dash": mediumCharDash,
         "char_dot": mediumCharDot,
+        "char_euro": mediumCharEuro,
         "char_space": mediumCharSpace,
         "char_exclamation": mediumCharExclamation,
         "chara": mediumCharA,
@@ -301,6 +334,38 @@ export const iconsMap = {
         "char7": largeNumber7,
         "char8": largeNumber8,
         "char9": largeNumber9,
+        "char_comma": largeCharComma,
+        "char_dash": largeCharDash,
+        "char_dot": largeCharDot,
+        "char_euro": largeEuro,
+        "char_space": largeCharSpace,
+        "char_exclamation": largeCharExclamation,
+        "chara": largeCharA,
+        "charb": largeCharB,
+        "charc": largeCharC,
+        "chard": largeCharD,
+        "chare": largeChare,
+        "charf": largeCharF,
+        "charg": largeCharG,
+        "charh": largeCharH,
+        "chari": largeCharI,
+        "charj": largeCharJ,
+        "chark": largeCharK,
+        "charl": largeCharL,
+        "charm": largeCharM,
+        "charn": largeCharN,
+        "charo": largeCharO,
+        "charp": largeCharP,
+        "charq": largeCharQ,
+        "charr": largeCharR,
+        "chars": largeCharS,
+        "chart": largeCharT,
+        "charu": largeCharU,
+        "charv": largeCharV,
+        "charw": largeCharW,
+        "charx": largeCharX,
+        "chary": largeCharY,
+        "charz": largeCharZ,
         "question": largeQuestion,
         "speech-bubble": largeSpeechBubble,
         "thoughts": largeThoughts,
@@ -341,6 +406,7 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
         if (c == ".") { char = "_dot" }
         if (c == "!") { char = "_exclamation" }
         if (c == " ") { char = "_space" }
+        if (c == "€") { char = "_euro" }
         
         const newChar = iconsMap[size][`char${char}`]
         if (newChar) {
