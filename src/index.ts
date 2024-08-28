@@ -84,8 +84,37 @@ import mediumNumber6 from "../icons/medium/characters/6.json"
 import mediumNumber7 from "../icons/medium/characters/7.json"
 import mediumNumber8 from "../icons/medium/characters/8.json"
 import mediumNumber9 from "../icons/medium/characters/9.json"
+import mediumCharComma from "../icons/medium/characters/comma.json"
+import mediumCharDash from "../icons/medium/characters/dash.json"
+import mediumCharDot from "../icons/medium/characters/dot.json"
+import mediumCharExclamation from "../icons/medium/characters/exclamation.json"
 import mediumCharSpace from "../icons/medium/characters/space.json"
-import mediumCharDash from "../icons/medium/characters/-.json"
+import mediumCharA from "../icons/medium/characters/a.json"
+import mediumCharB from "../icons/medium/characters/b.json"
+import mediumCharC from "../icons/medium/characters/c.json"
+import mediumCharD from "../icons/medium/characters/d.json"
+import mediumChare from "../icons/medium/characters/e.json"
+import mediumCharF from "../icons/medium/characters/f.json"
+import mediumCharG from "../icons/medium/characters/g.json"
+import mediumCharH from "../icons/medium/characters/h.json"
+import mediumCharI from "../icons/medium/characters/i.json"
+import mediumCharJ from "../icons/medium/characters/j.json"
+import mediumCharK from "../icons/medium/characters/k.json"
+import mediumCharL from "../icons/medium/characters/l.json"
+import mediumCharM from "../icons/medium/characters/m.json"
+import mediumCharN from "../icons/medium/characters/n.json"
+import mediumCharO from "../icons/medium/characters/o.json"
+import mediumCharP from "../icons/medium/characters/p.json"
+import mediumCharQ from "../icons/medium/characters/q.json"
+import mediumCharR from "../icons/medium/characters/r.json"
+import mediumCharS from "../icons/medium/characters/s.json"
+import mediumCharT from "../icons/medium/characters/t.json"
+import mediumCharU from "../icons/medium/characters/u.json"
+import mediumCharV from "../icons/medium/characters/v.json"
+import mediumCharW from "../icons/medium/characters/w.json"
+import mediumCharX from "../icons/medium/characters/x.json"
+import mediumCharY from "../icons/medium/characters/y.json"
+import mediumCharZ from "../icons/medium/characters/z.json"
 import mediumOff from "../icons/medium/off.json"
 import mediumOn from "../icons/medium/on.json"
 import mediumPlay from "../icons/medium/play.json"
@@ -209,8 +238,37 @@ export const iconsMap = {
         "char7": mediumNumber7,
         "char8": mediumNumber8,
         "char9": mediumNumber9,
-        "char_space": mediumCharSpace,
+        "char_comma": mediumCharComma,
         "char_dash": mediumCharDash,
+        "char_dot": mediumCharDot,
+        "char_space": mediumCharSpace,
+        "char_exclamation": mediumCharExclamation,
+        "chara": mediumCharA,
+        "charb": mediumCharB,
+        "charc": mediumCharC,
+        "chard": mediumCharD,
+        "chare": mediumChare,
+        "charf": mediumCharF,
+        "charg": mediumCharG,
+        "charh": mediumCharH,
+        "chari": mediumCharI,
+        "charj": mediumCharJ,
+        "chark": mediumCharK,
+        "charl": mediumCharL,
+        "charm": mediumCharM,
+        "charn": mediumCharN,
+        "charo": mediumCharO,
+        "charp": mediumCharP,
+        "charq": mediumCharQ,
+        "charr": mediumCharR,
+        "chars": mediumCharS,
+        "chart": mediumCharT,
+        "charu": mediumCharU,
+        "charv": mediumCharV,
+        "charw": mediumCharW,
+        "charx": mediumCharX,
+        "chary": mediumCharY,
+        "charz": mediumCharZ,
         "off": mediumOff,
         "on": mediumOn,
         "play": mediumPlay,
@@ -284,8 +342,15 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
         if (c == "!") { char = "_exclamation" }
         if (c == " ") { char = "_space" }
         
-        return iconsMap[size][`char${char}`]
+        const newChar = iconsMap[size][`char${char}`]
+        if (newChar) {
+            return newChar
+        }
     }) 
+
+    if (chars.length != source.toString().length) {
+        console.warn("JAO Icons: some characters got lost in translation")
+    }
 
     const result = [] as jaoIconJSON
         
