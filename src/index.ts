@@ -132,9 +132,11 @@ import largeCircle from "../icons/large/circle.json"
 import largecross from "../icons/large/cross.json"
 import largeEmpty from "../icons/large/empty.json"
 import largeEuro from "../icons/large/euro.json"
+import largeForbidden from "../icons/large/forbidden.json"
 import largeGraph from "../icons/large/graph.json"
 import largeHamburger from "../icons/large/hamburger.json"
 import largeHammer from "../icons/large/hammer.json"
+import largeHome from "../icons/large/home.json"
 import largeImage from "../icons/large/image.json"
 import largeIsoCube from "../icons/large/iso-cube.json"
 import largeLeave from "../icons/large/leave.json"
@@ -317,9 +319,11 @@ export const iconsMap = {
         "cross": largecross,
         "empty": largeEmpty,
         "euro": largeEuro,
+        "forbidden": largeForbidden,
         "graph": largeGraph,
         "hamburger": largeHamburger,
         "hammer": largeHammer,
+        "home": largeHome,
         "image": largeImage,
         "iso-cube": largeIsoCube,
         "leave": largeLeave,

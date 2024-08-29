@@ -94,17 +94,22 @@ console.log(iconMap.small.cross)
         <strong>Hamburger</strong>
     </td>
     <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/home.svg" style="width: 128px;">
+        <br>
+        <strong>Home</strong>
+    </td>
+    <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/hammer.svg" style="width: 128px;">
         <br>
         <strong>Hammer</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/image.svg" style="width: 128px;">
         <br>
         <strong>Image</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/instagram.svg" style="width: 128px;">
         <br>
@@ -125,13 +130,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Mail</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/move.svg" style="width: 128px;">
         <br>
         <strong>Move</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/phone.svg" style="width: 128px;">
         <br>
@@ -152,6 +157,8 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Thoughts</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/wrench.svg" style="width: 128px;">
         <br>
