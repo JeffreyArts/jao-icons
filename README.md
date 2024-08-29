@@ -326,6 +326,48 @@ console.log(iconMap.small.cross)
 <table>
     <tr>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-top.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-top</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-right.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-right</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron.svg" style="width: 128px;">
+            <br>
+            <strong>chevron</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-left.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-left</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-top-fat.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-top-fat</strong>
+        </td>
+    <tr>
+    </tr>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-righ-fat.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-right-fat</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-fat.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-fat</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-left-fat.svg" style="width: 128px;">
+            <br>
+            <strong>chevron-left-fat</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/circle.svg" style="width: 128px;">
             <br>
             <strong>Circle</strong>
@@ -335,6 +377,8 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Cross</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/empty.svg" style="width: 128px;">
             <br>
@@ -350,8 +394,6 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Fullscreen</strong>
         </td>
-    <tr>
-    </tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/graph.svg" style="width: 128px;">
             <br>
@@ -362,6 +404,8 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Heart outline</strong>
         </td>
+    <tr>
+    </tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/heart.svg" style="width: 128px;">
             <br>

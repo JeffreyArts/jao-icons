@@ -2,6 +2,14 @@ import { jaoIconJSON, jaoIconSize, jaoIconSource } from "jao-icons"
 import jsonToSvg from "./json-to-svg"
 
 // Small
+import smallChevron from "icons/small/chevron.json"
+import smallChevronFat from "icons/small/chevron-fat.json"
+import smallChevronTop from "icons/small/chevron-top.json"
+import smallChevronTopFat from "icons/small/chevron-top-fat.json"
+import smallChevronLeftFat from "icons/small/chevron-left-fat.json"
+import smallChevronLeft from "icons/small/chevron-left.json"
+import smallChevronRightFat from "icons/small/chevron-right-fat.json"
+import smallChevronRight from "icons/small/chevron-right.json"
 import smallCircle from "../icons/small/circle.json"
 import smallCross from "../icons/small/cross.json"
 import smallEmpty from "../icons/small/empty.json"
@@ -190,6 +198,16 @@ import largeWrench from "../icons/large/wrench.json"
 
 export const iconsMap = {
     small: {
+        "chevron": smallChevron,
+        "chevron-fat": smallChevronFat,
+        "chevron-bottom": smallChevron,
+        "chevron-bottom-fat": smallChevronFat,
+        "chevron-top": smallChevronTop,
+        "chevron-top-fat": smallChevronTopFat,
+        "chevron-left-fat": smallChevronLeftFat,
+        "chevron-left": smallChevronLeft,
+        "chevron-right-fat": smallChevronRightFat,
+        "chevron-right": smallChevronRight,
         "circle": smallCircle,
         "cross": smallCross,
         "empty": smallEmpty,
