@@ -29,6 +29,7 @@ import smallNumbers7 from "../icons/small/characters/7.json"
 import smallNumbers8 from "../icons/small/characters/8.json"
 import smallNumbers9 from "../icons/small/characters/9.json"
 import smallCharComma from "../icons/small/characters/comma.json"
+import smallCharColon from "../icons/small/characters/colon.json"
 import smallCharDash from "../icons/small/characters/dash.json"
 import smallCharDot from "../icons/small/characters/dot.json"
 import smallCharExclamation from "../icons/small/characters/exclamation.json"
@@ -93,6 +94,7 @@ import mediumNumber7 from "../icons/medium/characters/7.json"
 import mediumNumber8 from "../icons/medium/characters/8.json"
 import mediumNumber9 from "../icons/medium/characters/9.json"
 import mediumCharComma from "../icons/medium/characters/comma.json"
+import mediumCharColon from "../icons/medium/characters/colon.json"
 import mediumCharDash from "../icons/medium/characters/dash.json"
 import mediumCharDot from "../icons/medium/characters/dot.json"
 import mediumCharExclamation from "../icons/medium/characters/exclamation.json"
@@ -160,6 +162,7 @@ import largeNumber7 from "../icons/large/characters/7.json"
 import largeNumber8 from "../icons/large/characters/8.json"
 import largeNumber9 from "../icons/large/characters/9.json"
 import largeCharComma from "../icons/large/characters/comma.json"
+import largeCharColon from "../icons/large/characters/colon.json"
 import largeCharDash from "../icons/large/characters/dash.json"
 import largeCharDot from "../icons/large/characters/dot.json"
 import largeCharExclamation from "../icons/large/characters/exclamation.json"
@@ -227,6 +230,7 @@ export const iconsMap = {
         "char8": smallNumbers8,
         "char9": smallNumbers9,
         "char_comma": smallCharComma,
+        "char_colon": smallCharColon,
         "char_dash": smallCharDash,
         "char_dot": smallCharDot,
         "char_space": smallCharSpace,
@@ -291,6 +295,7 @@ export const iconsMap = {
         "char8": mediumNumber8,
         "char9": mediumNumber9,
         "char_comma": mediumCharComma,
+        "char_colon": mediumCharColon,
         "char_dash": mediumCharDash,
         "char_dot": mediumCharDot,
         "char_euro": mediumCharEuro,
@@ -357,6 +362,7 @@ export const iconsMap = {
         "char8": largeNumber8,
         "char9": largeNumber9,
         "char_comma": largeCharComma,
+        "char_colon": largeCharColon,
         "char_dash": largeCharDash,
         "char_dot": largeCharDot,
         "char_euro": largeEuro,
@@ -423,6 +429,7 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
             size = "medium"
         }
         let char = c.toLowerCase()
+        if (c == ":") { char = "_colon" }
         if (c == ",") { char = "_comma" }
         if (c == "-") { char = "_dash" }
         if (c == ".") { char = "_dot" }
