@@ -210,22 +210,27 @@ console.log(iconMap.small.cross)
             <strong>Cross</strong>
         </td>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/download.svg" style="width: 128px;">
+            <br>
+            <strong>Download</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/empty.svg" style="width: 128px;">
             <br>
-            <strong>empty</strong>
+            <strong>Empty</strong>
         </td>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/euro.svg" style="width: 128px;">
             <br>
             <strong>Euro</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/expand-with-border.svg" alt="expand with border" style="width: 128px;">
             <br>
             <strong>Expand + border</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/expand.svg" style="width: 128px;">
             <br>
@@ -246,13 +251,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Fullscreen</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/graph.svg" style="width: 128px;">
             <br>
             <strong>Graph</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/heart-outline.svg" style="width: 128px;">
             <br>
@@ -273,13 +278,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Move</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/off.svg" style="width: 128px;">
             <br>
             <strong>Off</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/on.svg" style="width: 128px;">
             <br>
@@ -300,13 +305,18 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Question</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/smiley.svg" style="width: 128px;">
             <br>
             <strong>Smiley</strong>
         </td>
-    </tr>
-    <tr>
+        <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/upload.svg" style="width: 128px;">
+            <br>
+            <strong>Upload</strong>
+        </td>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/user.svg" style="width: 128px;">
             <br>
@@ -353,7 +363,7 @@ console.log(iconMap.small.cross)
     <tr>
     </tr>
         <td style="width: 128px; text-align:center;">
-            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-righ-fat.svg" style="width: 128px;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/small/chevron-right-fat.svg" style="width: 128px;">
             <br>
             <strong>chevron-right-fat</strong>
         </td>

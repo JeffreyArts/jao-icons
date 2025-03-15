@@ -71,6 +71,7 @@ import mediumChristmasTree from "../icons/medium/christmas-tree.json"
 import mediumCircle from "../icons/medium/circle.json"
 import mediumComment from "../icons/medium/comment.json"
 import mediumCross from "../icons/medium/cross.json"
+import mediumDownload from "../icons/medium/download.json"
 import mediumEmpty from "../icons/medium/empty.json"
 import mediumEuro from "../icons/medium/euro.json"
 import mediumExpand from "../icons/medium/expand.json"
@@ -132,6 +133,7 @@ import mediumPlay from "../icons/medium/play.json"
 import mediumPlus from "../icons/medium/plus.json"
 import mediumQuestion from "../icons/medium/question.json"
 import mediumSmiley from "../icons/medium/smiley.json"
+import mediumUpload from "../icons/medium/upload.json"
 import mediumTerminal from "../icons/medium/terminal.json"
 import mediumUser from "../icons/medium/user.json"
 
@@ -272,6 +274,7 @@ export const iconsMap = {
         "circle": mediumCircle,
         "comment": mediumComment,
         "cross": mediumCross,
+        "download": mediumDownload,
         "empty": mediumEmpty,
         "euro": mediumEuro,
         "expand-with-border": mediumExpandWithBorder,
@@ -334,6 +337,7 @@ export const iconsMap = {
         "question": mediumQuestion,
         "smiley": mediumSmiley,
         "terminal": mediumTerminal,
+        "upload": mediumUpload,
         "user": mediumUser,
     },
     large: { 

@@ -19,6 +19,8 @@ declare module "jao-icons" {
         "medium/heart" |
         "medium/off" |
         "medium/on" |
+        "medium/download" |
+        "medium/upload" |
         "medium/smiley-face" |
         "medium/terminal.json" |
         "large/circle" |
