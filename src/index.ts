@@ -94,6 +94,7 @@ import mediumNumber6 from "../icons/medium/characters/6.json"
 import mediumNumber7 from "../icons/medium/characters/7.json"
 import mediumNumber8 from "../icons/medium/characters/8.json"
 import mediumNumber9 from "../icons/medium/characters/9.json"
+import mediumCamera from "../icons/medium/camera.json"
 import mediumCharComma from "../icons/medium/characters/comma.json"
 import mediumCharColon from "../icons/medium/characters/colon.json"
 import mediumCharDash from "../icons/medium/characters/dash.json"
@@ -137,7 +138,6 @@ import mediumUpload from "../icons/medium/upload.json"
 import mediumTerminal from "../icons/medium/terminal.json"
 import mediumUser from "../icons/medium/user.json"
 
-
 // Large
 import largeArchive from "../icons/large/archive.json"
 import largeCircle from "../icons/large/circle.json"
@@ -163,6 +163,7 @@ import largeNumber6 from "../icons/large/characters/6.json"
 import largeNumber7 from "../icons/large/characters/7.json"
 import largeNumber8 from "../icons/large/characters/8.json"
 import largeNumber9 from "../icons/large/characters/9.json"
+import largeCamera from "../icons/large/camera.json"
 import largeCharComma from "../icons/large/characters/comma.json"
 import largeCharColon from "../icons/large/characters/colon.json"
 import largeCharDash from "../icons/large/characters/dash.json"
@@ -287,6 +288,7 @@ export const iconsMap = {
         "heart": mediumHeart,
         "logo": mediumLogo,
         "move": mediumMove,
+        "camera": mediumCamera,
         "char0": mediumNumber0,
         "char1": mediumNumber1,
         "char2": mediumNumber2,
@@ -355,6 +357,7 @@ export const iconsMap = {
         "iso-cube": largeIsoCube,
         "leave": largeLeave,
         "move": largeMove,
+        "camera": largeCamera,
         "char0": largeNumber0,
         "char1": largeNumber1,
         "char2": largeNumber2,
