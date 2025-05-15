@@ -60,6 +60,7 @@ import smallCharW from "../icons/small/characters/w.json"
 import smallCharX from "../icons/small/characters/x.json"
 import smallCharY from "../icons/small/characters/y.json"
 import smallCharZ from "../icons/small/characters/z.json"
+import smallHamburger from "../icons/small/hamburger.json"
 import smallPlay from "../icons/small/play.json"
 import smallSquare from "../icons/small/square.json"
 
@@ -137,6 +138,7 @@ import mediumSmiley from "../icons/medium/smiley.json"
 import mediumUpload from "../icons/medium/upload.json"
 import mediumTerminal from "../icons/medium/terminal.json"
 import mediumUser from "../icons/medium/user.json"
+import mediumDocument from "../icons/medium/document.json"
 
 // Large
 import largeArchive from "../icons/large/archive.json"
@@ -196,6 +198,7 @@ import largeCharW from "../icons/large/characters/w.json"
 import largeCharX from "../icons/large/characters/x.json"
 import largeCharY from "../icons/large/characters/y.json"
 import largeCharZ from "../icons/large/characters/z.json"
+import largeDocument from "../icons/large/document.json"
 import largeQuestion from "../icons/large/question.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
 import largeThoughts from "../icons/large/thoughts.json"
@@ -220,6 +223,7 @@ export const iconsMap = {
         "expand": smallExpand,
         "fullscreen": smallFullscreen,
         "graph": smallGraph,
+        "hamburger": smallHamburger,
         "heart-outline": smallHeartOutline,
         "heart": smallHeart,
         "char0": smallNumbers0,
@@ -332,6 +336,7 @@ export const iconsMap = {
         "charx": mediumCharX,
         "chary": mediumCharY,
         "charz": mediumCharZ,
+        "document": mediumDocument,
         "off": mediumOff,
         "on": mediumOn,
         "play": mediumPlay,
@@ -402,6 +407,7 @@ export const iconsMap = {
         "chary": largeCharY,
         "charz": largeCharZ,
         "question": largeQuestion,
+        "document": largeDocument,
         "speech-bubble": largeSpeechBubble,
         "thoughts": largeThoughts,
         "user": largeUser,
