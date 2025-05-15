@@ -94,17 +94,22 @@ console.log(iconMap.small.cross)
         <strong>Forbidden</strong>
     </td>
     <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/globe.svg" style="width: 128px;">
+        <br>
+        <strong>Globe</strong>
+    </td>
+    <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/graph.svg" style="width: 128px;">
         <br>
         <strong>Graph</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/hamburger.svg" style="width: 128px;">
         <br>
         <strong>Hamburger</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/home.svg" style="width: 128px;">
         <br>
@@ -125,13 +130,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Instagram</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/iso-cube.svg" style="width: 128px;">
         <br>
         <strong>Iso cube</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/leave.svg" style="width: 128px;">
         <br>
@@ -152,13 +157,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Phone</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/question.svg" style="width: 128px;">
         <br>
         <strong>Question</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/speech-bubble.svg" style="width: 128px;">
         <br>
