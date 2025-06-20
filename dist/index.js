@@ -196,6 +196,7 @@ import largeCharY from "../icons/large/characters/y.json" assert { type: "json" 
 import largeCharZ from "../icons/large/characters/z.json" assert { type: "json" };
 import largeDocument from "../icons/large/document.json" assert { type: "json" };
 import largeQuestion from "../icons/large/question.json" assert { type: "json" };
+import largeSkull from "../icons/large/skull.json" assert { type: "json" };
 import largeSpeechBubble from "../icons/large/speech-bubble.json" assert { type: "json" };
 import largeThoughts from "../icons/large/thoughts.json" assert { type: "json" };
 import largeUser from "../icons/large/user.json" assert { type: "json" };
@@ -405,6 +406,7 @@ export const iconsMap = {
         "charz": largeCharZ,
         "question": largeQuestion,
         "document": largeDocument,
+        "skull": largeSkull,
         "speech-bubble": largeSpeechBubble,
         "thoughts": largeThoughts,
         "user": largeUser,
