@@ -195,6 +195,8 @@ import largeCharX from "../icons/large/characters/x.json" assert { type: "json" 
 import largeCharY from "../icons/large/characters/y.json" assert { type: "json" };
 import largeCharZ from "../icons/large/characters/z.json" assert { type: "json" };
 import largeDocument from "../icons/large/document.json" assert { type: "json" };
+import largePhone from "../icons/large/phone.json" assert { type: "json" };
+import largePrinter from "../icons/large/printer.json" assert { type: "json" };
 import largeQuestion from "../icons/large/question.json" assert { type: "json" };
 import largeSpeechBubble from "../icons/large/speech-bubble.json" assert { type: "json" };
 import largeThoughts from "../icons/large/thoughts.json" assert { type: "json" };
@@ -403,6 +405,8 @@ export const iconsMap = {
         "charx": largeCharX,
         "chary": largeCharY,
         "charz": largeCharZ,
+        "phone": largePhone,
+        "printer": largePrinter,
         "question": largeQuestion,
         "document": largeDocument,
         "speech-bubble": largeSpeechBubble,
