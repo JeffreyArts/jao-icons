@@ -199,6 +199,8 @@ import largeCharX from "../icons/large/characters/x.json"
 import largeCharY from "../icons/large/characters/y.json"
 import largeCharZ from "../icons/large/characters/z.json"
 import largeDocument from "../icons/large/document.json"
+import largePhone from "../icons/large/phone.json"
+import largePrinter from "../icons/large/printer.json"
 import largeQuestion from "../icons/large/question.json"
 import largeSkull from "../icons/large/skull.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
@@ -410,6 +412,8 @@ export const iconsMap = {
         "charx": largeCharX,
         "chary": largeCharY,
         "charz": largeCharZ,
+        "phone": largePhone,
+        "printer": largePrinter,
         "question": largeQuestion,
         "document": largeDocument,
         "skull": largeSkull,

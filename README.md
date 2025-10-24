@@ -160,6 +160,11 @@ console.log(iconMap.small.cross)
   </tr>
   <tr>
     <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/printer.svg" style="width: 128px;">
+        <br>
+        <strong>Printer</strong>
+    </td>
+    <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/question.svg" style="width: 128px;">
         <br>
         <strong>Question</strong>
