@@ -1,5 +1,5 @@
 import { jaoIconJSON, jaoIconSize, jaoIconSource } from "jao-icons";
-export declare const iconsMap: {
+declare const iconsMap: {
     small: {
         [key: string]: jaoIconJSON;
     };
@@ -11,5 +11,19 @@ export declare const iconsMap: {
     };
 };
 declare const Icon: (source: jaoIconSource, size?: jaoIconSize) => SVGElement | undefined;
-export { Icon };
-export default Icon;
+export { Icon, iconsMap };
+declare const _default: {
+    Icon: (source: jaoIconSource, size?: jaoIconSize) => SVGElement | undefined;
+    iconsMap: {
+        small: {
+            [key: string]: jaoIconJSON;
+        };
+        medium: {
+            [key: string]: jaoIconJSON;
+        };
+        large: {
+            [key: string]: jaoIconJSON;
+        };
+    };
+};
+export default _default;

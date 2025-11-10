@@ -211,7 +211,7 @@ import largeUserOutline from "../icons/large/user-outline.json"
 import largeWrench from "../icons/large/wrench.json"
 import largeGlobe from "../icons/large/globe.json"
 
-export const iconsMap = {
+const iconsMap = {
     small: {
         "chevron": smallChevron,
         "chevron-fat": smallChevronFat,
@@ -493,6 +493,5 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
     
 }
 
-
-export { Icon }
-export default Icon
+export { Icon, iconsMap };
+export default { Icon, iconsMap }; 
