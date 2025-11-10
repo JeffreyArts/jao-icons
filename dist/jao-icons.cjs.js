@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 const jsonToSvg = (jsonArray, opts = {
     pixelSize: 10,
     pixelPadding: 2
@@ -16405,8 +16403,6 @@ const Icon = (source, size) => {
         pixelPadding: 2
     });
 };
-var index = { Icon, iconsMap };
 
 exports.Icon = Icon;
-exports.default = index;
 exports.iconsMap = iconsMap;

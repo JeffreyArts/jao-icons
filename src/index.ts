@@ -494,4 +494,3 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
 }
 
 export { Icon, iconsMap };
-export default { Icon, iconsMap }; 

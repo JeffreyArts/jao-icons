@@ -16401,6 +16401,5 @@ const Icon = (source, size) => {
         pixelPadding: 2
     });
 };
-var index = { Icon, iconsMap };
 
-export { Icon, index as default, iconsMap };
+export { Icon, iconsMap };
