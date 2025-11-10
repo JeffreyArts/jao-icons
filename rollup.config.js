@@ -2,15 +2,32 @@ import typescript from "@rollup/plugin-typescript"
 import json from "@rollup/plugin-json"
 import resolve from "@rollup/plugin-node-resolve"
 
-export default {
-    input: "src/index.ts",
-    output: {
-        file: "dist/index.js",
-        format: "cjs",   // of 'esm'
+export default [
+    // CommonJS build
+    {
+        input: "src/index.ts",
+        output: {
+            file: "dist/jao-icons.cjs.js",
+            format: "cjs",
+            exports: "named",
+        },
+        plugins: [
+            resolve(),
+            json(),
+            typescript(),
+        ],
     },
-    plugins: [
-        resolve(),       // voor node_modules
-        json(),          // voor JSON imports
-        typescript()     // voor TypeScript
-    ],
-}
+    // ESM build
+    {
+        input: "src/index.ts",
+        output: {
+            file: "dist/jao-icons.esm.js",
+            format: "es",
+        },
+        plugins: [
+            resolve(),
+            json(),
+            typescript(),
+        ],
+    },
+]
