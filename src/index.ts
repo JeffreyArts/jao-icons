@@ -155,6 +155,7 @@ import largeImage from "../icons/large/image.json"
 import largeIsoCube from "../icons/large/iso-cube.json"
 import largeLeave from "../icons/large/leave.json"
 import largeMove from "../icons/large/move.json"
+import largeMail from "../icons/large/mail.json"
 import largeNumber0 from "../icons/large/characters/0.json"
 import largeNumber1 from "../icons/large/characters/1.json"
 import largeNumber2 from "../icons/large/characters/2.json"
@@ -368,6 +369,7 @@ const iconsMap = {
         "iso-cube": largeIsoCube,
         "leave": largeLeave,
         "move": largeMove,
+        "mail": largeMail,
         "camera": largeCamera,
         "char0": largeNumber0,
         "char1": largeNumber1,
@@ -493,4 +495,4 @@ const Icon = (source: jaoIconSource, size?: jaoIconSize) : SVGElement | undefine
     
 }
 
-export { Icon, iconsMap };
+export { Icon, iconsMap }
