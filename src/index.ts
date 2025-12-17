@@ -134,6 +134,7 @@ import mediumOn from "../icons/medium/on.json"
 import mediumPlay from "../icons/medium/play.json"
 import mediumPlus from "../icons/medium/plus.json"
 import mediumQuestion from "../icons/medium/question.json"
+import mediumRedo from "../icons/medium/redo.json"
 import mediumSmiley from "../icons/medium/smiley.json"
 import mediumUpload from "../icons/medium/upload.json"
 import mediumTerminal from "../icons/medium/terminal.json"
@@ -203,6 +204,7 @@ import largeDocument from "../icons/large/document.json"
 import largePhone from "../icons/large/phone.json"
 import largePrinter from "../icons/large/printer.json"
 import largeQuestion from "../icons/large/question.json"
+import largeRedo from "../icons/large/redo.json"
 import largeSkull from "../icons/large/skull.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
 import largeShower from "../icons/large/shower.json"
@@ -349,6 +351,7 @@ const iconsMap = {
         "play": mediumPlay,
         "plus": mediumPlus,
         "question": mediumQuestion,
+        "redo": mediumRedo,
         "smiley": mediumSmiley,
         "terminal": mediumTerminal,
         "upload": mediumUpload,
@@ -417,6 +420,7 @@ const iconsMap = {
         "phone": largePhone,
         "printer": largePrinter,
         "question": largeQuestion,
+        "redo": largeRedo,
         "document": largeDocument,
         "skull": largeSkull,
         "speech-bubble": largeSpeechBubble,

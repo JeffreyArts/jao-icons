@@ -170,6 +170,11 @@ console.log(iconMap.small.cross)
         <strong>Question</strong>
     </td>
     <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/redo.svg" style="width: 128px;">
+        <br>
+        <strong>Redo</strong>
+    </td>
+    <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/skull.svg" style="width: 128px;">
         <br>
         <strong>Skull</strong>
@@ -184,13 +189,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Thoughts</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user.svg" style="width: 128px;">
         <br>
         <strong>User</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user-outline.svg" style="width: 128px;">
         <br>
@@ -355,6 +360,11 @@ console.log(iconMap.small.cross)
             <strong>Question</strong>
         </td>
         <td style="width: 128px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/redo.svg" style="width: 128px;">
+            <br>
+            <strong>Redo</strong>
+        </td>
+        <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/smiley.svg" style="width: 128px;">
             <br>
             <strong>Smiley</strong>
@@ -364,13 +374,13 @@ console.log(iconMap.small.cross)
             <br>
             <strong>Upload</strong>
         </td>
+    </tr>
+    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/user.svg" style="width: 128px;">
             <br>
             <strong>User</strong>
         </td>
-    </tr>
-    <tr>
         <td style="width: 128px; text-align:center;">
             <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/terminal.svg" style="width: 128px;">
             <br>
