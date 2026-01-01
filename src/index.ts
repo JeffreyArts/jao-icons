@@ -142,11 +142,14 @@ import mediumUser from "../icons/medium/user.json"
 import mediumDocument from "../icons/medium/document.json"
 
 // Large
+import largeApple from "../icons/large/apple.json"
 import largeArchive from "../icons/large/archive.json"
 import largeCircle from "../icons/large/circle.json"
 import largecross from "../icons/large/cross.json"
+import largeBimale from "../icons/large/bimale.json"
 import largeEmpty from "../icons/large/empty.json"
 import largeEuro from "../icons/large/euro.json"
+import largeFemale from "../icons/large/female.json"
 import largeForbidden from "../icons/large/forbidden.json"
 import largeGraph from "../icons/large/graph.json"
 import largeHamburger from "../icons/large/hamburger.json"
@@ -154,7 +157,9 @@ import largeHammer from "../icons/large/hammer.json"
 import largeHome from "../icons/large/home.json"
 import largeImage from "../icons/large/image.json"
 import largeIsoCube from "../icons/large/iso-cube.json"
+import largeLeaf from "../icons/large/leaf.json"
 import largeLeave from "../icons/large/leave.json"
+import largeMale from "../icons/large/male.json"
 import largeMove from "../icons/large/move.json"
 import largeMail from "../icons/large/mail.json"
 import largeNumber0 from "../icons/large/characters/0.json"
@@ -359,10 +364,13 @@ const iconsMap = {
     },
     large: { 
         "archive": largeArchive,
+        "apple": largeApple,
+        "bimale": largeBimale,
         "circle": largeCircle,
         "cross": largecross,
         "empty": largeEmpty,
         "euro": largeEuro,
+        "female": largeFemale,
         "forbidden": largeForbidden,
         "graph": largeGraph,
         "hamburger": largeHamburger,
@@ -371,6 +379,8 @@ const iconsMap = {
         "image": largeImage,
         "iso-cube": largeIsoCube,
         "leave": largeLeave,
+        "leaf": largeLeaf,
+        "male": largeMale,
         "move": largeMove,
         "mail": largeMail,
         "camera": largeCamera,

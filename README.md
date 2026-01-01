@@ -56,6 +56,16 @@ console.log(iconMap.small.cross)
         <strong>Archive</strong>
     </td>
     <td style="width: 128px; text-align:center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/apple.svg" style="width: 128px;">
+        <br>
+        <strong>Apple</strong>
+    </td>
+    <td style="width: 128px; text-align:center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/bimale.svg" style="width: 128px;">
+        <br>
+        <strong>Bimale</strong>
+    </td>
+    <td style="width: 128px; text-align:center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/camera.svg" style="width: 128px;">
         <br>
         <strong>Camera</strong>
@@ -65,6 +75,9 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Circle</strong>
     </td>
+  </tr>
+
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/cross.svg" style="width: 128px;">
         <br>
@@ -75,9 +88,6 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Document</strong>
     </td>
-  </tr>
-
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/empty.svg" style="width: 128px;">
         <br>
@@ -88,6 +98,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Euro</strong>
     </td>
+    <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/female.svg" style="width: 128px;">
+        <br>
+        <strong>Female</strong>
+    </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/forbidden.svg" style="width: 128px;">
         <br>
@@ -103,8 +120,6 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Graph</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/hamburger.svg" style="width: 128px;">
         <br>
@@ -115,6 +130,8 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Home</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/hammer.svg" style="width: 128px;">
         <br>
@@ -130,18 +147,28 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Instagram</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/iso-cube.svg" style="width: 128px;">
         <br>
         <strong>Iso cube</strong>
     </td>
     <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/leaf.svg" style="width: 128px;">
+        <br>
+        <strong>Leaf</strong>
+    </td>
+    <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/leave.svg" style="width: 128px;">
         <br>
         <strong>Leave</strong>
     </td>
+    <td style="width: 128px; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/male.svg" style="width: 128px;">
+        <br>
+        <strong>Male</strong>
+    </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/mail.svg" style="width: 128px;">
         <br>
@@ -157,8 +184,6 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Phone</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/printer.svg" style="width: 128px;">
         <br>
@@ -169,6 +194,8 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Question</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/redo.svg" style="width: 128px;">
         <br>
@@ -189,13 +216,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>Thoughts</strong>
     </td>
-  </tr>
-  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user.svg" style="width: 128px;">
         <br>
         <strong>User</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 128px; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user-outline.svg" style="width: 128px;">
         <br>
@@ -220,12 +247,12 @@ console.log(iconMap.small.cross)
             <strong>Camera</strong>
         </td>
         <td style="width: 128px; text-align:center;">
-            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/checkbox-checked.svg" checked" style="width: 128px;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/checkbox-checked.svg" style="width: 128px;">
             <br>
             <strong>Checkbox checked</strong>
         </td>
         <td style="width: 128px; text-align:center;">
-            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/checkbox-cross.svg" " style="width: 128px;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/checkbox-cross.svg" style="width: 128px;">
             <br>
             <strong>Checkbox cross</strong>
         </td>
@@ -235,7 +262,7 @@ console.log(iconMap.small.cross)
             <strong>Checkbox</strong>
         </td>
         <td style="width: 128px; text-align:center;">
-            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/christmas-tree.svg" " style="width: 128px;">
+            <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/medium/christmas-tree.svg" style="width: 128px;">
             <br>
             <strong>Christmas tree</strong>
         </td>
