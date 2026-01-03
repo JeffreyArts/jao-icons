@@ -209,6 +209,7 @@ import largeDocument from "../icons/large/document.json"
 import largePhone from "../icons/large/phone.json"
 import largePrinter from "../icons/large/printer.json"
 import largeQuestion from "../icons/large/question.json"
+import largeQR from "../icons/large/qr.json"
 import largeRedo from "../icons/large/redo.json"
 import largeSkull from "../icons/large/skull.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
@@ -430,6 +431,7 @@ const iconsMap = {
         "phone": largePhone,
         "printer": largePrinter,
         "question": largeQuestion,
+        "qr": largeQR,
         "redo": largeRedo,
         "document": largeDocument,
         "skull": largeSkull,
