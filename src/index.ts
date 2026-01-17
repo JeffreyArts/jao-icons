@@ -215,6 +215,7 @@ import largeSkull from "../icons/large/skull.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
 import largeShower from "../icons/large/shower.json"
 import largeThoughts from "../icons/large/thoughts.json"
+import largeThrowBall from "../icons/large/throw-ball.json"
 import largeUser from "../icons/large/user.json"
 import largeUserOutline from "../icons/large/user-outline.json"
 import largeWrench from "../icons/large/wrench.json"
@@ -438,6 +439,7 @@ const iconsMap = {
         "speech-bubble": largeSpeechBubble,
         "shower": largeShower,
         "thoughts": largeThoughts,
+        "throw-ball": largeThrowBall,
         "user": largeUser,
         "user-outline": largeUserOutline,
         "wrench": largeWrench,

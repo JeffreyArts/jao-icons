@@ -224,6 +224,11 @@ console.log(iconMap.small.cross)
         <strong>Thoughts</strong>
     </td>
     <td style="width: 20%; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/throw-ball.svg" style="width: 128px;">
+        <br>
+        <strong>Throw ball</strong>
+    </td>
+    <td style="width: 20%; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user.svg" style="width: 128px;">
         <br>
         <strong>User</strong>
@@ -233,6 +238,8 @@ console.log(iconMap.small.cross)
         <br>
         <strong>User Outline</strong>
     </td>
+  </tr>
+  <tr>
     <td style="width: 20%; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/wrench.svg" style="width: 128px;">
         <br>
