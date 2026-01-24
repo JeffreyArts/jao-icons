@@ -1,6 +1,6 @@
 {
   "name": "jao-icons",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "Icon set - Jeffrey Arts Online ",
   "type": "module",
   "main": "dist/jao-icons.cjs.js",

@@ -213,6 +213,7 @@ import largeQR from "../icons/large/qr.json"
 import largeRedo from "../icons/large/redo.json"
 import largeSkull from "../icons/large/skull.json"
 import largeSpeechBubble from "../icons/large/speech-bubble.json"
+import largeSwitch from "../icons/large/switch.json"
 import largeShower from "../icons/large/shower.json"
 import largeThoughts from "../icons/large/thoughts.json"
 import largeThrowBall from "../icons/large/throw-ball.json"
@@ -437,6 +438,7 @@ const iconsMap = {
         "document": largeDocument,
         "skull": largeSkull,
         "speech-bubble": largeSpeechBubble,
+        "switch": largeSwitch,
         "shower": largeShower,
         "thoughts": largeThoughts,
         "throw-ball": largeThrowBall,

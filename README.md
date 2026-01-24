@@ -219,6 +219,11 @@ console.log(iconMap.small.cross)
         <strong>Speech bubble</strong>
     </td>
     <td style="width: 20%; text-align: center;">
+        <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/switch.svg" style="width: 128px;">
+        <br>
+        <strong>Switch</strong>
+    </td>
+    <td style="width: 20%; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/thoughts.svg" style="width: 128px;">
         <br>
         <strong>Thoughts</strong>
@@ -233,13 +238,13 @@ console.log(iconMap.small.cross)
         <br>
         <strong>User</strong>
     </td>
+  <tr>
     <td style="width: 20%; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/user-outline.svg" style="width: 128px;">
         <br>
         <strong>User Outline</strong>
     </td>
   </tr>
-  <tr>
     <td style="width: 20%; text-align: center;">
         <img src="https://raw.githubusercontent.com/JeffreyArts/jao-icons/main/images/large/wrench.svg" style="width: 128px;">
         <br>
